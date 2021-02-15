@@ -3,6 +3,7 @@
 	
 	background-image:url('../img/Mask Group.png');
 	color: #fff!important;
+	background-size: cover;
 }
 .header a{
 	color: #fff !important;
@@ -25,7 +26,9 @@
 }
 .col-lg-4 {
 	height: 300px;
+
 }
-.row{
-	border:1px solid red;
+
+.footer p{
+	color: rgba(0,0,0,0.4) !important;
 }
