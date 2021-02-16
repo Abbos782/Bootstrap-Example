@@ -102,3 +102,10 @@
 	    transition:height 2s;
 
 }
+@media(max-width:990px){
+	.navbar-toggler span{
+		background-color: #fff;
+		padding: 10px;
+
+	}
+}
