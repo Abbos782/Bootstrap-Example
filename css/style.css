@@ -17,7 +17,7 @@
 	background-color: #fff !important;
 	color: #000 !important;
 }
-.photo-section__img{
+.photo-section__img,.photo-section__img1{
 	position: relative;
 }
 .photo-section__img img{
@@ -27,6 +27,7 @@
 	height: auto;
 	align-items: center;
 }
+
 .col-lg-4 {
 	height: auto;
 
@@ -42,7 +43,6 @@
 .hover-box,.hover-box1{
 	margin: 0 auto;
 	position: absolute;
-	
 	bottom: 0%;
 	right: 0%;
 	height: 0px;
@@ -54,6 +54,7 @@
 }
 .hover-box1 h2{
 	margin: 0 auto;
+	margin: 10px 0;
 	text-align: left;
 	width: 70%;
 	padding-top: 10px;
@@ -77,9 +78,6 @@
 .hover-box img{
 	margin: 0 auto;
     height: 20px;
-
-	
-
 }
 .photo-section__img img {
 	z-index: 1;
