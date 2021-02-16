@@ -17,18 +17,62 @@
 	background-color: #fff !important;
 	color: #000 !important;
 }
+.photo-section__img{
+	position: relative;
+}
 .photo-section__img img{
-	height: 300px;
+	height: auto;
 }
 .photo-section__img1 img{
-	height: 145px;
+	height: auto;
 	align-items: center;
 }
 .col-lg-4 {
-	height: 300px;
+	height: auto;
 
 }
 
 .footer p{
 	color: rgba(0,0,0,0.4) !important;
+}
+.photo{
+	position: relative;
+	
+   
+    
+    
+    
+}
+.box{
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	
+	height: 0px;
+	transition: 1s;
+	background-color: #fff !important;
+	clip-path: polygon(0% 100%, 0% 0%, 100% 20%, 100% 100%, 10% 100%);
+	z-index: 2;
+	
+}
+.box h2{
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+	padding-top: 30px;
+	
+	transition:height 2s;
+
+}
+.photo-section__img img {
+	z-index: 1;
+	height: 500px;
+	
+
+}
+.photo:hover>.box{
+	    height: 50% !important;
+	    background-color: rgba(0, 0, 0, 0.80) !important;
+	    transition:height 2s;
+
 }
