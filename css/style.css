@@ -38,30 +38,47 @@
 .photo{
 	position: relative;
 	
-   
-    
-    
-    
-}
-.box{
+ }
+.hover-box,.hover-box1{
+	margin: 0 auto;
 	position: absolute;
+	
 	bottom: 0%;
 	right: 0%;
-	
 	height: 0px;
 	transition: 1s;
-	background-color: #fff !important;
 	clip-path: polygon(0% 100%, 0% 0%, 100% 20%, 100% 100%, 10% 100%);
 	z-index: 2;
+	background-color:transparent !important;
 	
 }
-.box h2{
+.hover-box1 h2{
 	margin: 0 auto;
-	text-align: center;
-	width: 50%;
-	padding-top: 30px;
-	
+	text-align: left;
+	width: 70%;
+	padding-top: 10px;
+	font-size: 20px !important;
 	transition:height 2s;
+}
+
+.hover-box h2{
+	margin: 0 auto;
+	text-align: left;
+	width: 70%;
+	padding-top: 30px;
+	font-size: 25px;
+	transition:height 2s;
+
+}
+.hover__img{
+	width: 40px !important;
+	height: 40px !important;
+}
+.hover-box img{
+	margin: 0 auto;
+    height: 20px;
+
+	
 
 }
 .photo-section__img img {
@@ -70,7 +87,18 @@
 	
 
 }
-.photo:hover>.box{
+.photo-section__img1 h2{
+	margin: 0 auto;
+	text-align: left;
+	width: 70%;
+	padding-top: 10px;
+	font-size: 20px !important;
+	transition:height 2s;
+}
+.photo-section__img1 img{
+	height: 244px;
+}
+.photo:hover .hover-box,.photo:hover .hover-box1{
 	    height: 50% !important;
 	    background-color: rgba(0, 0, 0, 0.80) !important;
 	    transition:height 2s;
